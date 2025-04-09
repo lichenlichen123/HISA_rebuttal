@@ -7,30 +7,29 @@ Thank you for your valuable question. The stopping criterion used for the result
 Thank you for your insightful comment. We have now included the training time of HISA, as well as the additional training time incurred from the review and examine stages. It is worth noting that the extra time for the review and examine stages is related to the triggering conditions for the review, which is proportional to the number of epochs. If review and examine are performed in the later stages of training, the corresponding time will increase. Nevertheless, when compared to the current state-of-the-art methods, particularly those using graph-based approaches, such as the 2024 method DCHL [1], we still have an advantage in terms of time efficiency. The results are shown in Table 1.
 
 <table>
-  <caption>Table 1: Comparisons of Training and Testing Time (Second/Minute/Hour [s/m/h]). "Training per Epoch" is the average training time for each epoch; "Training" denotes the total training time to converge.</caption>
+  <caption>Table 1: Comparisons of Training and Testing Time.</caption>
   <thead>
     <tr>
-      <th align="center">Datasets</th>
-      <th align="center">Time</th>
-      <th align="center">HISA w/o re_ex</th>
-      <th align="center">HISA</th>
-      <th align="center">DCHL</th>
+      <th>Datasets</th>
+      <th>Time</th>
+      <th>HISA w/o re_ex</th>
+      <th>HISA</th>
+      <th>DCHL</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center">PHO</td>
-      <td align="center">Training per epoch</td>
-      <td align="center">10.5s</td>
-      <td align="center">13.8s</td>
-      <td align="center">17s</td>
+      <td rowspan="2">PHO</td>
+      <td>Training per epoch</td>
+      <td>10.5s</td>
+      <td>13.8s</td>
+      <td>17s</td>
     </tr>
     <tr>
-      <td align="center"> </td>
-      <td align="center">Training</td>
-      <td align="center">8m</td>
-      <td align="center">12m</td>
-      <td align="center">14m</td>
+      <td>Training</td>
+      <td>8m</td>
+      <td>12m</td>
+      <td>14m</td>
     </tr>
   </tbody>
 </table>
