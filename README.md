@@ -6,9 +6,9 @@ Thank you for your valuable question. The stopping criterion used for the result
 **Response to  Comment \#2:**
 Thank you for your insightful comment. We have now included the training time of HISA, as well as the additional training time incurred from the review and examine stages. It is worth noting that the extra time for the review and examine stages is related to the triggering conditions for the review, which is proportional to the number of epochs. If review and examine are performed in the later stages of training, the corresponding time will increase. Nevertheless, when compared to the current state-of-the-art methods, particularly those using graph-based approaches, such as the 2024 method DCHL [1], we still have an advantage in terms of time efficiency. The results are shown in Table 1.
 
-**Comparisons of Training Time (Second/Minute [s/m]).**  
+
+**Table 1: Comparisons of Training Time (Second/Minute [s/m]).**  
 "Training per Epoch" is the average training time for each epoch; "Training" denotes the total training time to converge.
-**Table 1: Comparisons of Training and Testing Time.**
 
 | Datasets | Time               | HISA w/o re_ex | HISA  | DCHL  |
 |----------|--------------------|----------------|-------|-------|
