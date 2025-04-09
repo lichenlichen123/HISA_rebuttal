@@ -266,7 +266,7 @@ Thank you for the suggestion. Due to space limitations, we only presented result
 
 
 ## Reviewer 5
-**Response to  Comment:** 
+**Response to  Comment:**  Thank you for your valuable comment.  
 First, regarding the term ''novel learning paradigm,'' we acknowledge that our current evaluation focuses on next POI recommendation with uncertain check-ins. This is because we chose this challenging setting to demonstrate the effectiveness of our approach in high-noise, sparse-feedback scenarios where traditional training methods often fail. Furthermore, our goal is to highlight the proposed training mechanism—*acquire*, *review*, and *examine*—which is inspired by human learning. Moreover, experiments show that this mechanism is encoder-agnostic and can potentially generalize to other sequential tasks. We also plan to explore its broader applicability in future work.
 
 Second, in Eq. (4), $\mathbf{e}_u$ is a learnable user embedding from an embedding layer, jointly trained with other model parameters. In Eq. (5), the weight and bias are not shared—each view (POI, intention, type) has its own decoder parameters. We will clarify this in the revised paper.
