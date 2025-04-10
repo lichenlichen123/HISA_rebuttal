@@ -283,7 +283,7 @@ We have finished experiments on the CAL and CHA datasets for Sections 5.3 and 5.
 
 ## Reviewer 5
 Thank you for your valuable comments and suggestions.  
-**Response to  Comment:**
+**Response to Weaknesses:**
 First, for the uncertain check-in problem, we are the first to introduce the concept of human-like learning, which simulates the *acquire*, *review*, and *examine* stages in the human knowledge acquisition process. Moreover, experimental results demonstrate that our proposed HISA outperforms existing methods. In addition, we have verified that the framework is encoder-agnostic, showing strong generality and flexibility. Therefore, we believe HISA serves as a general learning framework, particularly effective for POI recommendation tasks. Nevertheless, in future work, we plan to extend this learning framework to other recommendation scenarios in order to validate its generalization ability across different recommendation tasks. We will emphasize this in the future manuscript.
 
 Second, in Eq. (4), $\mathbf{e}_u$ is a learnable user embedding from an embedding layer, jointly trained with other model parameters. In Eq. (5), the weight and bias are not shared—each view (POI, intention, type) has its own parameters. We will highlight this in the future paper.
