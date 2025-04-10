@@ -264,8 +264,8 @@ We followed prior works [1][2] and selected the CAL, CHA, and PHO datasets, whic
 *[2] Point-of-interest recommendation for users-businesses with uncertain check-ins. TKDE.*
 
 **Response to  Q \#1:** 
-We have included the relevant comparative results for STSP in Table 1.  
-Table 1: Model performance of STSP.
+We have included the relevant comparative results for STSP in Table 3.  
+Table 3: Model performance of STSP.
 | Dataset  | HR@5   | MMR@5  | HR@10  | MRR@10 |
 |----------|--------|--------|--------|--------|
 | **CAL**  | 0.113  | 0.077  | 0.150  | 0.098  |
